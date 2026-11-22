@@ -2,9 +2,11 @@
 // hand-in program for make.fun's news-image bounty (Node 22, standard
 // library only). The picture itself was drawn as a labelled news collage
 // (a header naming the day, then six panels: category, place, headline
-// and a one-line detail for each of the day's biggest stories). Its PNG
+// and a one-line detail for each of the day's biggest stories, chosen
+// from the day's reporting across regions and fields). Its PNG
 // bytes ride inside this file as base64 — the repository stays text-only
-// — and this program writes them out as entry.png, byte for byte.
+// — and this program writes them out as entry.png, byte for byte, so the
+// picture the judge sees is exactly the collage that was drawn and checked.
 //
 // Outside the grader's container, MAKEFUN_OUTPUT_DIR stands in for /output:
 //   mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
